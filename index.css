@@ -1,0 +1,147 @@
+* {
+    list-style-type: none;
+}
+
+body {
+    background: url('./images/bg-header-desktop.png');
+    padding: 25px;
+}
+
+.d-default {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-list {
+    display: flex;
+    gap: 23px
+}
+
+.btn-1 {
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 4.5em;
+    border: none;
+    padding: 11px;
+}
+
+.btn-2 {
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 4.5em;
+    border: none;
+    padding: 11px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content img {
+    width: 100%;
+}
+
+.d-flexing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.top-c-img>img {
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.sub-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    gap: 23px;
+}
+
+footer {
+    background-color: hsl(201, 11%, 66%);
+    width: 100%;
+    height: 100%;
+    margin-top: 12px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.d-flex {
+    display: flex;
+
+}
+
+@media screen and (min-width: 650px) {
+    .main-container {
+        padding: 20px 100px;
+        margin: 0 auto;
+    }
+
+    .d-flexinng {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .d-flexinng img {
+        width: 50%;
+        /* border:solid red; */
+    }
+
+    .title {
+        display: flex;
+        flex-direction: row;
+        padding-left: 86px;
+    }
+
+    .top-c-img>img {
+        width: 50%;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    .sub-title {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 24px;
+        padding-left: 66px;
+    }
+    .d-flex{
+       
+        gap:12px
+    }
+    .d-flex img{
+        color: white;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-direction: row;
+       justify-content: space-around;
+    }
+}
